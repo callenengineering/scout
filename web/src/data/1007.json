@@ -1,0 +1,33 @@
+{
+    "name": "1007 Irving Avenue",
+    "address": "1007 Irving Ave, Royal Oak, MI 48067",
+    "props": {
+        "mapbox_id":"dXJuOm1ieGFkcjoxOWU0YzYzNy05MDZmLTQwODItYWIxMi0wYTRhOGQwOTFlMGE",
+        "feature_type":"address",
+        "full_address":"1007 Irving Avenue, Royal Oak, Michigan 48067, United States",
+        "name":"1007 Irving Avenue",
+        "name_preferred":"1007 Irving Avenue",
+        "coordinates":{
+            "longitude":-83.135751,
+            "latitude":42.481353,
+            "routable_points":[
+                {
+                    "name":"default",
+                    "latitude":42.481353,
+                    "longitude":-83.135751
+                }
+            ]
+        }
+    },
+    "locations_data": {
+        "School": {
+            "duration": 1577.402,
+            "distance": 33101.746
+        },
+        "Work": {
+            "duration": 623.955,
+            "distance": 8106.446
+        }
+    },
+    "use": "geocode"
+}

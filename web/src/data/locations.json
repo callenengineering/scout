@@ -1,0 +1,53 @@
+{
+    "pois": ["airports", "gym", "library", "coffee"],
+    "fixed": [
+        {
+            "name": "School",
+            "coordinates": {
+                "latitude":42.66787741,
+                "longitude":-83.20823201
+            },
+            "props": {
+                "name":"Oakland University",
+                "mapbox_id":"dXJuOm1ieHBvaTpjMTk5YjVhYS1hYmFmLTRkMTgtYTJlZS1jODUxNjc1NmEwMjE",
+                "feature_type":"poi",
+                "address":"201 Meadow Brook Rd",
+                "full_address":"201 Meadow Brook Rd, Rochester Hills, Michigan 48309, United Sta ...",
+                "place_formatted":"Rochester Hills, Michigan 48309, United States",
+                "coordinates": {
+                    "latitude":42.66787741,
+                    "longitude":-83.20823201,
+                    "routable_points":[{
+                        "name":"POI",
+                        "latitude":42.668883,
+                        "longitude":-83.20905
+                    }]
+                }
+            },
+            "use": "searchbox"
+        },
+        {
+            "name": "Work",
+            "coordinates": {
+                "longitude":-83.1145416,
+                "latitude":42.53294458
+            },
+            "props": {
+                "name":"Micro Center",
+                "mapbox_id":"dXJuOm1ieHBvaTo4YWVmMjc3NS04YzYwLTRiZDItYmMxNC1iYThhM2I5ZTg0Mjc",
+                "address":"32800 Concord Dr",
+                "full_address":"32800 Concord Dr, Madison Heights, Michigan 48071, United States",
+                "coordinates":{
+                    "latitude":42.53294458,
+                    "longitude":-83.1145416,
+                    "routable_points":[{
+                        "name":"default",
+                        "latitude":42.532982,
+                        "longitude":-83.114837
+                    }]
+                },
+                "use": "geocode"
+            }
+        }
+    ]
+}
