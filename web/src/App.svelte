@@ -41,6 +41,11 @@
 
     let POIs = ["gym", "grocery_store", "coffee", "library"]
 
+    async function fetchData() {
+        let res = await fetch('http://localhost:8000/mapping');
+        console.log(await res.json())
+    }
+
     function updateData() {
         zoom = map.getZoom();
         lng = map.getCenter().lng;
@@ -56,7 +61,7 @@
 
     }
 
-    onMount(() => {
+    onMount(async () => {
         map = new Map({
             container: mapContainer,
             accessToken: "pk.eyJ1IjoiY2FsbGVuZW5naW5lZXJpbmciLCJhIjoiY21pdXZ6cWJrMXZlNTNlcHZjdnI0bXJtOCJ9.zPcNuWLw7NYrQ2AtPk8Q_g",
@@ -67,6 +72,8 @@
         map.on('move', () => {
             updateData();
         });
+
+        await fetchData();
     });
 
     onDestroy(() => {
